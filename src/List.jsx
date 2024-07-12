@@ -1,7 +1,7 @@
-function objectList(objects) {
-	objectListItem = []
+function objectList() {
+	let objectListItem = ['Item 1', 'Item 2', 'Item 3']
 
-	for (let obj in objects) {
+	for (let obj in objectListItem) {
 		objectListItem.push(<li>{obj}</li>)
 	}
 
@@ -11,3 +11,5 @@ function objectList(objects) {
 		</ul>
 	)
 }
+
+export default objectList
